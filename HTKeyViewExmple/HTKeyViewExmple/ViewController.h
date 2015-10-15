@@ -1,0 +1,17 @@
+//
+//  ViewController.h
+//  HTKeyViewExmple
+//
+//  Created by  易万军 on 15/7/24.
+//  Copyright (c) 2015年 yiwanjun. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+@class HTKeyView;
+@interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *inputLabel;
+
+@property (weak, nonatomic) IBOutlet HTKeyView *htView;
+
+@end
+
