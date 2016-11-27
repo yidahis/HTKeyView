@@ -29,7 +29,7 @@
     self.hotKeys = keys;
 }
 
-- (void) layoutContentView{
+- (void)layoutContentView{
     self.buttonTag = 0;
     [self.buttons removeAllObjects];
     if (self.spaceing==0) {
@@ -91,7 +91,7 @@
  *  @param sWidth             绘制key所需的宽度
  *  @param height             行搞
  */
--(void)addNewButton:(NSString*)key RowMaxWidth:(CGFloat)currentRowMaxWidth Row:(NSInteger)row StringWidth:(CGFloat)sWidth Height:(CGFloat)height{
+- (void)addNewButton:(NSString*)key RowMaxWidth:(CGFloat)currentRowMaxWidth Row:(NSInteger)row StringWidth:(CGFloat)sWidth Height:(CGFloat)height{
     UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(currentRowMaxWidth, row * (height + 12) + self.spaceing, sWidth, height)];
     [btn setTitle:key forState:UIControlStateNormal];
     [self configButton:btn];
@@ -103,7 +103,7 @@
 }
 
 
--(void)keyButtonPressed:(UIButton*)button{
+- (void)keyButtonPressed:(UIButton*)button{
     
     for (UIButton *floor in self.buttons) {
         if ([floor.titleLabel.text isEqualToString:self.choosen]) {
@@ -155,7 +155,7 @@
  *  @return 最合适的一个key的索引
  */
 
--(NSInteger)findFixOne:(CGFloat)maxWidth Keys:(NSArray*)keys Font:(UIFont*)font Spaceing:(CGFloat)spaceing{
+- (NSInteger)findFixOne:(CGFloat)maxWidth Keys:(NSArray*)keys Font:(UIFont*)font Spaceing:(CGFloat)spaceing{
     NSInteger selectIndex = 10000;
     CGFloat deltaWidth = 1000.00;//用来记录与maxWidth最接近的key的宽度
     for (NSInteger i=0; i<keys.count;i++) {

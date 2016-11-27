@@ -8,13 +8,9 @@
 
 #import "ViewController.h"
 #import "HTKeyView.h"
-@interface ViewController ()
-
-@end
 
 @implementation ViewController
--(void)viewDidLayoutSubviews{
-    
+- (void)viewDidLayoutSubviews{
     //如需支持xib，这个方法必须在viewDidLayoutSubviews中执行，因为这时self.htView的width才是正确的
     [self.htView layoutContentView];
 }

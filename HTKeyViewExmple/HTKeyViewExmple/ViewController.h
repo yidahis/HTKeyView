@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 @class HTKeyView;
+
 @interface ViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *inputLabel;
-
 @property (weak, nonatomic) IBOutlet HTKeyView *htView;
 
 @end
