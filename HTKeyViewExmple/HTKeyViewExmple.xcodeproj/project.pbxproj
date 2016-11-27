@@ -84,9 +84,9 @@
 		19E0F0C41B621ED500801A9B /* HTKeyViewExmple */ = {
 			isa = PBXGroup;
 			children = (
+				19E0F0EB1B621F9B00801A9B /* HTKeyView */,
 				19E0F0C91B621ED500801A9B /* AppDelegate.h */,
 				19E0F0CA1B621ED500801A9B /* AppDelegate.m */,
-				19E0F0EB1B621F9B00801A9B /* HTKeyView */,
 				19E0F0CC1B621ED500801A9B /* ViewController.h */,
 				19E0F0CD1B621ED500801A9B /* ViewController.m */,
 				19E0F0CF1B621ED500801A9B /* Main.storyboard */,
