@@ -23,7 +23,7 @@
 /**
  * 布局
  */
-- (void) layoutContentView;
+- (void)layoutContentView;
 
 
 @end
