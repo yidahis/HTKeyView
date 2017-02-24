@@ -134,14 +134,14 @@
  *  按钮高亮状态
  */
 - (void)highLighted:(UIButton *)button{
-   
+   //
 }
 
 /**
  *  取消高亮状态
  */
 - (void)deHighLighted:(UIButton *)button{
-  
+  //
 }
 
 /**
