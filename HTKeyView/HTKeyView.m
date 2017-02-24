@@ -9,9 +9,9 @@
 #import "HTKeyView.h"
 
 @interface HTKeyView ()
-@property (nonatomic,strong) NSMutableArray *buttons;
-@property (nonatomic,assign) NSInteger buttonTag;
+@property (nonatomic,copy) NSMutableArray *buttons;
 @property (nonatomic,copy) NSArray *hotKeys;
+@property (nonatomic,assign) NSInteger buttonTag;
 @end
 
 @implementation HTKeyView
